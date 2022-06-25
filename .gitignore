@@ -1,0 +1,2 @@
+# ignore .DS_Store file if working w/ Mac users and as best practice
+.DS_Store
