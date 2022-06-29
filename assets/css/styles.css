@@ -5,13 +5,15 @@
     box-sizing: border-box; /* ignore padding when determining percentages */
 }
 
+
 /* apply styles to everything within the body element */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to all header elements */
+
+/* apply styles to header elements */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -45,6 +47,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
+
 /* apply styles to footer elements */
 footer {
     background: #fce138;
@@ -67,4 +70,64 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+
+/* apply styles to section element */
+section {
+    padding: 60px;
+}
+
+
+/* hero and hero-form styling */
+.hero {
+    position: relative;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.hero-form {
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+    color: #024e76;
+    background-color: #fce138;
+    padding: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 0px;
+    border-color: #024e76;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.hero-form input[type=text], input[type=tel], input[type=email] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0px;
+    border-color: #024e76;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    border-style: none;
 }
