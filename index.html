@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
     <head> 
         <meta charset="UTF-8" />
         <title>Run Buddy</title>
@@ -33,29 +33,73 @@
             </nav>
         </header>
 
+
         <!-- hero / jumobotron (large header image) -->
         <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
+                <!-- add form element -->
+                <form>
+                    <!-- name input -->
+                    <label for="name">Full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" />
+
+                    <!-- email input -->
+                    <label for="email">Email address:</label>
+                    <input type="email" placeholder="name@domain.web" name="email" id="email" />
+
+                    <!-- telephone input -->
+                    <label for="phone">Your telephone number:</label>
+                    <input type="tel" placeholder="###-###-####" name="phone" id="phone" />
+
+                    <!-- prior experience radio button -->
+                    <p>
+                        Have you previously worked with a trainer?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </p>
+
+                    <!-- age confirmation -->
+                    <p>
+                        <input type="checkbox" name="age-confirm" id="age-confirm" />
+                        <label for="age-confirm">I acknowledge that I am at least 18 years of age.</label>
+                    </p>
+
+                    <!-- form submission button -->
+                    <button type="submit">
+                        Get Running!
+                    </button>
+                </form>
+            </div>
         </section>
+
 
         <!-- "what we do" -->
         <section>
             <h2>What We Do</h2>
         </section>
 
+
         <!-- "what you do" -->
         <section>
             <h2>What You Do</h2>
         </section>
+
 
         <!-- "meet the trainers" -->
         <section>
             <h2>Meet the Trainers</h2>
         </section>
 
+
         <!-- "reach out" -->
         <section>
             <h2>Reach Out</h2>
         </section>
+
 
         <!-- footer -->
         <footer>
