@@ -191,12 +191,12 @@ section {
     overflow: auto;
 }
 
-.trainer img {
+.trainer img { /* specifying width allows it to always take up an approriate amount of space */
     width: 35%;
     float: left;
 }
 
-.trainer-bio {
+.trainer-bio { /* ^ and specifying width for the bio div which follows fills that remaining space perfectly, with float */
     padding: 35px;
     float: left;
     width: 65%;
@@ -219,7 +219,7 @@ section {
 }
 
 
-/* section class styling */
+/* section utility classes */
 .section-title {
     font-size: 55px;
     color: #024e76;
