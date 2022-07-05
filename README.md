@@ -12,3 +12,5 @@ https://helpvisa.github.io/run-buddy_scs/
 
 ## developed for the UofT SCS Coding Bootcamp by
 Daniel Brackenbury
+
+### :^) 
