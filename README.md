@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Run Buddy, Inc
+=======
+# Run Buddy
+>>>>>>> refs/remotes/origin/main
 
 ## Purpose
 A website that offers fitness training services.
