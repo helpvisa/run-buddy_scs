@@ -86,12 +86,28 @@ section {
     background-size: cover;
     background-position: center;
     height: 600px;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+}
+
+.hero-header {
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    width: 500px;
+    color: white;
+}
+
+.hero-header h2 {
+    color: #fce138;
+    font-size: 64px;
+    font-style: oblique;
+    text-align: right;
 }
 
 .hero-form {
     position: absolute;
     bottom: 120px;
-    right: 140px;
+    right: 400px;
     color: #024e76;
     background-color: #fce138;
     padding: 15px;
@@ -99,6 +115,7 @@ section {
     border-width: 5px;
     border-radius: 0px;
     border-color: #024e76;
+    text-shadow: none;
 }
 
 .hero-form h3 {
