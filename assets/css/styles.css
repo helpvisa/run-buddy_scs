@@ -47,7 +47,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0px 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -89,6 +89,7 @@ section {
 .hero {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -109,6 +110,7 @@ section {
     color: #fce138;
     font-size: 55px;
     font-style: italic;
+    line-height: 1.2;
 }
 
 .hero-form {
@@ -340,7 +342,7 @@ section {
     padding-bottom: 20px;
     margin: 0 auto 35px auto;
     width: 50%;
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
 }
@@ -361,4 +363,18 @@ section {
 
 .text-right {
     text-align: right;
+}
+
+
+/* media query overrides for different screens */
+@media screen and (max-width: 980px) { /* smaller desktop */
+
+}
+
+@media screen and (max-width: 768px) { /* tablets */
+
+}
+
+@media screen and (max-width: 575px) { /* mobile phones and smaller */
+
 }
